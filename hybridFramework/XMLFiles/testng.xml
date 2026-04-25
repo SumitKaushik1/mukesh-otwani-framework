@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="urlToBeTested" value="https://classic.crmpro.com/index.html"/>
+    <parameter name="xmlFiles" value="testng.xml"/>
+
+
+    <test verbose="2" preserve-order="true"
+          name="E:/DOWNLOADS AND DESKTOP/LEARNING and Project making/hybrid framework of muskesh otwani----- middle/day7/hybridFramework/src/test/java/org/hybridframework/learnautomation/testcases/LoginTestCRM.java">
+        <classes>
+            <class name="org.hybridframework.learnautomation.testcases.LoginTestCRM">
+                <methods>
+                    <include name="loginApp"/>
+                    <include name="loginApp1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
